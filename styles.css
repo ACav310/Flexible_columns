@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.col
+{
+  background-color: rgb(11, 157, 189);
+  flex: 4;
+  min-height: 75px;
+  margin: 4px;
+  padding: 30px;
+}
+.b {
+  flex: 8;
+}
+.c {
+  flex: 14;
+}
